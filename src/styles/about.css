@@ -1,0 +1,105 @@
+/* Improved About Me section (overrides index.css) */
+
+#about .content {
+  font-weight: 400;
+  font-size: 1.05rem;
+  line-height: 1.8rem !important;
+}
+
+#about .about-text p {
+  margin-bottom: 1rem;
+}
+
+/* round photo with a ring */
+#about .image img {
+  width: 100%;
+  max-width: 280px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border: 4px solid var(--primary-color);
+  padding: 4px;
+  box-shadow: 0 10px 40px rgba(15, 80, 100, 0.25);
+}
+
+/* quick facts */
+#about .about-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+}
+
+#about .about-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0.9rem 0.5rem;
+  border-radius: 0.9rem;
+  border: 1px solid rgba(128, 128, 128, 0.25);
+  background-color: var(--secondary-color) !important;
+  box-shadow: 0 6px 24px rgba(15, 80, 100, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#about .about-stat:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(15, 80, 100, 0.2);
+}
+
+#about .about-stat-value {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--primary-color);
+}
+
+#about .about-stat-label {
+  font-size: 0.78rem;
+  line-height: 1.3;
+  opacity: 0.75;
+}
+
+/* skills as chips */
+#about .about-skills-title {
+  margin: 1.5rem 0 0.75rem;
+  font-weight: 600;
+}
+
+#about ul.about-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+#about ul.about-skills li {
+  margin: 0;
+  padding: 0.35rem 0.9rem;
+  font-size: 0.88rem;
+  line-height: 1.4;
+  border-radius: 50rem;
+  border: 1px solid rgba(128, 128, 128, 0.4);
+  transition: all 0.2s ease;
+  cursor: default;
+}
+
+#about ul.about-skills li::before {
+  content: none;
+}
+
+#about ul.about-skills li:hover {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  border-color: var(--primary-color);
+}
+
+@media (max-width: 767.98px) {
+  #about .about-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #about .content {
+    font-size: 1rem;
+  }
+}

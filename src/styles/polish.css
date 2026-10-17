@@ -1,0 +1,232 @@
+/* Overall UI / UX polish (loaded last) */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+/* sections stop below the sticky header when a nav link is clicked */
+section[id] {
+  scroll-margin-top: 70px;
+}
+
+/* ---- header: solid background so content never shows through ---- */
+#profileHeader {
+  background-color: var(--background-color) !important;
+}
+
+#profileHeader.showHeaderOnTop {
+  background-color: color-mix(in srgb, var(--background-color) 85%, transparent) !important;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+.navbar-brand {
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  font-size: 1.25rem;
+}
+
+/* nav links: underline slides in, active section is highlighted */
+header .navbar .navbar-nav .nav-link {
+  position: relative;
+}
+
+header .navbar .navbar-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 2px;
+  width: 0;
+  height: 2px;
+  background-color: var(--primary-color);
+  transition: width 0.25s ease, left 0.25s ease;
+}
+
+header .navbar .navbar-nav .nav-link:hover::after,
+header .navbar .navbar-nav .nav-link.active::after {
+  width: calc(100% - 1rem);
+  left: 0.5rem;
+}
+
+header .navbar .navbar-nav .nav-link.active {
+  color: var(--primary-color) !important;
+  font-weight: 600;
+}
+
+/* mobile menu looks like a tidy panel */
+@media (max-width: 991.98px) {
+  #navbarContent {
+    margin-top: 0.75rem;
+    padding: 0.5rem 0;
+    border-radius: 1rem;
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    background-color: var(--secondary-color) !important;
+    box-shadow: 0 10px 30px rgba(15, 80, 100, 0.15);
+  }
+  #navbarContent * {
+    background-color: transparent;
+  }
+  header .navbar .navbar-nav .nav-link::after {
+    display: none;
+  }
+}
+
+/* ---- scroll progress bar ---- */
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  z-index: 2000;
+  background-color: var(--primary-color);
+  transition: width 0.1s linear;
+  pointer-events: none;
+}
+
+/* ---- back to top ---- */
+.back-to-top {
+  position: fixed;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  width: 2.9rem;
+  height: 2.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  box-shadow: 0 8px 24px rgba(15, 80, 100, 0.35);
+  opacity: 0;
+  transform: translateY(14px);
+  pointer-events: none;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  z-index: 1500;
+}
+
+.back-to-top.show {
+  opacity: 1;
+  transform: none;
+  pointer-events: auto;
+}
+
+.back-to-top:hover {
+  transform: translateY(-3px);
+}
+
+/* ---- section headings ---- */
+#about h3,
+#experience h3,
+#education h3,
+#projects h3,
+#achievements h3,
+#contact h3 {
+  position: relative;
+  display: block;
+  padding-bottom: 0.9rem;
+  font-size: clamp(1.6rem, 4vw, 2.1rem);
+  font-weight: 700;
+  color: var(--text-color) !important;
+}
+
+#about h3::after,
+#experience h3::after,
+#education h3::after,
+#projects h3::after,
+#achievements h3::after,
+#contact h3::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 56px;
+  height: 4px;
+  margin-left: -28px;
+  border-radius: 4px;
+  background-color: var(--primary-color);
+}
+
+/* ---- reveal on scroll ---- */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.reveal.in-view {
+  opacity: 1;
+  transform: none;
+}
+
+/* ---- education cards ---- */
+#education .card {
+  border: 1px solid rgba(128, 128, 128, 0.25) !important;
+  border-left: 5px solid var(--primary-color) !important;
+  border-radius: 1rem;
+  box-shadow: 0 8px 30px rgba(15, 80, 100, 0.12);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+#education .card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 38px rgba(15, 80, 100, 0.22);
+  border: 1px solid rgba(128, 128, 128, 0.25) !important;
+  border-left: 5px solid var(--primary-color) !important;
+}
+
+#education .card .card-body {
+  padding: 1.4rem 1.6rem;
+  border-radius: 1rem;
+}
+
+#education .card .card-title {
+  font-weight: 600;
+}
+
+#education .card small {
+  display: inline-block;
+  padding: 0.2rem 0.75rem;
+  border-radius: 50rem;
+  border: 1px solid rgba(128, 128, 128, 0.45);
+}
+
+/* ---- footer ---- */
+footer {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(128, 128, 128, 0.2);
+}
+
+footer .text-secondary {
+  font-size: 0.85rem;
+}
+
+/* ---- keyboard focus ---- */
+a:focus-visible,
+button:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid var(--primary-color);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* ---- respect "reduce motion" ---- */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  .scroll-progress,
+  .back-to-top {
+    transition: none;
+  }
+}

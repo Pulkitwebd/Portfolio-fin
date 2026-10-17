@@ -1,0 +1,120 @@
+/* Certifications cards (overrides index.css #achievements rules) */
+
+#achievements h3 {
+  color: var(--text-secondary-color) !important;
+}
+
+#achievements .cert-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 1.4rem 1.4rem 1.1rem;
+  text-decoration: none;
+  border-radius: 1rem;
+  border: 1px solid rgba(128, 128, 128, 0.2);
+  border-top: 4px solid var(--primary-color);
+  background-color: var(--secondary-color) !important;
+  color: var(--text-color) !important;
+  box-shadow: 0 8px 30px rgba(15, 80, 100, 0.12);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+#achievements .cert-card:hover,
+#achievements .cert-card:focus-visible {
+  transform: translateY(-5px);
+  box-shadow: 0 16px 42px rgba(15, 80, 100, 0.24);
+}
+
+.cert-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+#achievements .cert-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.8rem;
+  height: 2.8rem;
+  flex: 0 0 auto;
+  border-radius: 0.8rem;
+  font-size: 1.15rem;
+  background-color: var(--primary-color) !important;
+  color: var(--background-color) !important;
+}
+
+#achievements .cert-date {
+  padding: 0.2rem 0.7rem;
+  font-size: 0.75rem;
+  white-space: nowrap;
+  border-radius: 50rem;
+  border: 1px solid rgba(128, 128, 128, 0.45);
+  opacity: 0.9;
+}
+
+#achievements .cert-date i {
+  margin-right: 0.2rem;
+  color: var(--primary-color);
+}
+
+#achievements .cert-title {
+  margin: 0 0 0.25rem;
+  font-size: 1.08rem;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+#achievements .cert-issuer {
+  margin-bottom: 0.8rem;
+  font-size: 0.88rem;
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+#achievements .cert-points {
+  list-style: none;
+  margin: 0.6rem 0 0;
+  padding: 0.8rem 0 0;
+  border-top: 1px dashed rgba(128, 128, 128, 0.35);
+}
+
+#achievements .cert-points li {
+  position: relative;
+  margin-bottom: 0.5rem;
+  padding-left: 1.2rem;
+  font-size: 0.88rem;
+  line-height: 1.55;
+  opacity: 0.88;
+}
+
+#achievements .cert-points li::before {
+  content: "\25B9";
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+#achievements .cert-text {
+  margin: 0.4rem 0 0;
+  font-size: 0.9rem;
+  opacity: 0.88;
+}
+
+#achievements .cert-link {
+  margin-top: auto;
+  padding-top: 0.6rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #achievements .cert-card {
+    transition: none;
+  }
+}

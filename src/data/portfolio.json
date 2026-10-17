@@ -1,0 +1,414 @@
+{
+  "title": "Rashi Shakya",
+  "description": "Rashi Shakya - MBA Finance candidate | Investment Banking, Equity Research & Financial Modelling",
+  "favicon": "/fav.png",
+  "useBootstrapCDN": false,
+  "mathjax": false,
+  "animate": true,
+  "font": {
+    "fontSize": "1rem",
+    "fontWeight": 400,
+    "lineHeight": 1.5,
+    "textAlign": "left"
+  },
+  "navbar": {
+    "align": "ms-auto",
+    "brandName": "Rashi Shakya",
+    "disableSearch": true,
+    "stickyNavBar": {
+      "enable": true,
+      "showOnScrollUp": true
+    },
+    "enableSeparator": false,
+    "menus": {
+      "disableAbout": false,
+      "disableExperience": false,
+      "disableEducation": false,
+      "disableProjects": false,
+      "disableAchievements": false,
+      "disableContact": false
+    }
+  },
+  "hero": {
+    "enable": true,
+    "intro": "Hi, my name is",
+    "title": "Rashi Shakya.",
+    "subtitle": "Investment Banking & Equity Research",
+    "content": "MBA Finance candidate at SIBM Nagpur with internships at Bank of America, KPMG India and Paterson Securities. I work on financial modelling, valuation and M&A analysis.",
+    "image": "/images/hero.svg",
+    "bottomImage": {
+      "enable": true
+    },
+    "button": {
+      "enable": true,
+      "name": "Resume",
+      "url": "/Rashi_Shakya_Resume.pdf",
+      "download": true,
+      "newPage": false
+    },
+    "socialLinks": {
+      "fontAwesomeIcons": [
+        {
+          "icon": "fab fa-linkedin-in",
+          "label": "LinkedIn",
+          "brand": "linkedin",
+          "url": "https://www.linkedin.com/in/rashi-shakya/"
+        },
+        {
+          "icon": "fas fa-envelope",
+          "label": "Email",
+          "brand": "email",
+          "url": "mailto:shakya2001rashi@gmail.com"
+        }
+      ],
+      "customIcons": []
+    },
+    "badge": "MBA Finance @ SIBM Nagpur",
+    "tags": [
+      "Financial Modelling",
+      "Valuation",
+      "Equity Research",
+      "M&A Analysis"
+    ],
+    "secondaryButton": {
+      "enable": true,
+      "name": "Get in touch",
+      "url": "#contact"
+    }
+  },
+  "about": {
+    "enable": true,
+    "title": "About Me",
+    "image": "/images/me.png",
+    "content": "MBA Finance candidate with experience in investment banking, equity research, financial modelling, valuation, and M&A analysis through internships at Bank of America, KPMG India, and Paterson Securities.\n\nSkilled in 3-statement, DCF, Reverse DCF, and comparable company analysis, with exposure to due diligence and strategic analysis. Based in Bhopal, Madhya Pradesh, India.",
+    "stats": [
+      {
+        "value": "4",
+        "label": "Internships"
+      },
+      {
+        "value": "58",
+        "label": "Companies Screened"
+      },
+      {
+        "value": "50+",
+        "label": "Documents Analysed"
+      },
+      {
+        "value": "4",
+        "label": "Certifications"
+      }
+    ],
+    "skills": {
+      "enable": true,
+      "title": "Skills & tools I work with:",
+      "items": [
+        "Financial Modelling (DCF, Comps)",
+        "Valuation",
+        "Equity & M&A Analysis",
+        "Due Diligence",
+        "Excel",
+        "Power BI",
+        "Python",
+        "SQL",
+        "Bloomberg",
+        "Communication",
+        "Teamwork",
+        "Leadership",
+        "Problem-Solving"
+      ]
+    }
+  },
+  "experience": {
+    "enable": true,
+    "title": "Internship Experience",
+    "items": [
+      {
+        "company": "Paterson Securities Pvt. Ltd.",
+        "companyUrl": "",
+        "jobs": [
+          {
+            "name": "Quantamental Equity Research & Financial Analytics Intern",
+            "date": "Apr 2026 - Jun 2026",
+            "content": "- Screened 58 Indian companies, shortlisting 20 using fundamental, quantitative & qualitative factors.\n- Built 3-Statement, DCF & Reverse DCF models for valuation and investment analysis of Yes Bank & Pidilite.\n- Conducted portfolio analytics, backtesting, VaR, stress testing & tail-risk analysis.\n- Assessed credit risk, cash flows, leverage & liquidity across companies.\n- Conducted macroeconomic & sector research to evaluate market and investment implications."
+          }
+        ]
+      },
+      {
+        "company": "KPMG India (Remote)",
+        "companyUrl": "",
+        "jobs": [
+          {
+            "name": "Finance Intern",
+            "date": "Dec 2023 - Apr 2024",
+            "content": "- Analyzed 50+ financial and audit documents, including revenue recognition and compliance.\n- Analysed 25+ board reports, governance disclosures, and CSR datasets for reporting insights.\n- Prepared 20+ financial extracts and supported Ind AS loan accounting, improving accuracy by 15%.\n- Delivered a 3-week client project despite team drop (6 to 2), ensuring 100% on-time delivery."
+          }
+        ]
+      },
+      {
+        "company": "Bank of America (Remote)",
+        "companyUrl": "",
+        "jobs": [
+          {
+            "name": "Investment Banker - Intern",
+            "date": "Jul 2023 - Aug 2023",
+            "content": "- Identified an acquisition target using SWOT and strategic analysis.\n- Built a DCF model with multi-variable sensitivity analysis (+/-15% valuation range).\n- Performed sensitivity analysis to evaluate the impact of key variables on valuation."
+          }
+        ]
+      },
+      {
+        "company": "Directorate of Economics and Statistics, Government of Madhya Pradesh",
+        "companyUrl": "",
+        "jobs": [
+          {
+            "name": "Economics Intern",
+            "date": "Jan 2023 - Feb 2023",
+            "content": "- Analysed 3 budget reports, 2 economic surveys, and census data across 10 divisions.\n- Conducted comparative analysis on employment, sectors, and demographics."
+          }
+        ]
+      }
+    ]
+  },
+  "education": {
+    "enable": true,
+    "index": false,
+    "items": [
+      {
+        "title": "MBA (Finance)",
+        "school": {
+          "name": "SIBM, Nagpur",
+          "url": ""
+        },
+        "date": "Pursuing"
+      },
+      {
+        "title": "B.Com (Applied Economics)",
+        "school": {
+          "name": "The Bhopal School of Social Science",
+          "url": ""
+        },
+        "date": "2023",
+        "GPA": "73.25%"
+      },
+      {
+        "title": "XII (CBSE)",
+        "school": {
+          "name": "Jyoti Convent Sr. Sec. School",
+          "url": ""
+        },
+        "date": "2019",
+        "GPA": "77.4%"
+      },
+      {
+        "title": "X (CBSE)",
+        "school": {
+          "name": "Jyoti Convent Sr. Sec. School",
+          "url": ""
+        },
+        "date": "2017",
+        "GPA": "76%"
+      }
+    ]
+  },
+  "projects": {
+    "enable": true,
+    "title": "Projects",
+    "intro": "Selected work from my internships. Click a project to read more.",
+    "items": [
+      {
+        "slug": "yes-bank-pidilite-valuation",
+        "title": "Equity Valuation: Yes Bank & Pidilite",
+        "icon": "fas fa-chart-line",
+        "summary": "3-Statement, DCF and Reverse DCF models for valuation and investment analysis of Yes Bank and Pidilite.",
+        "org": "Paterson Securities Pvt. Ltd.",
+        "role": "Quantamental Equity Research & Financial Analytics Intern",
+        "period": "Apr 2026 - Jun 2026",
+        "badges": [
+          "3-Statement Model",
+          "DCF",
+          "Reverse DCF",
+          "Excel"
+        ],
+        "overview": "As part of my equity research internship, I built full valuation models for two Indian companies, Yes Bank and Pidilite, to support investment analysis.\n\nThe work combined fundamental modelling with credit and sector views to judge whether each stock was fairly valued.",
+        "highlights": [
+          "Built 3-Statement, DCF & Reverse DCF models for valuation and investment analysis of Yes Bank & Pidilite.",
+          "Assessed credit risk, cash flows, leverage & liquidity across companies.",
+          "Conducted macroeconomic & sector research to evaluate market and investment implications."
+        ],
+        "links": []
+      },
+      {
+        "slug": "quantamental-stock-screener",
+        "title": "Quantamental Stock Screening",
+        "icon": "fas fa-filter",
+        "summary": "Screened 58 Indian companies and shortlisted 20 using fundamental, quantitative and qualitative factors.",
+        "org": "Paterson Securities Pvt. Ltd.",
+        "role": "Quantamental Equity Research & Financial Analytics Intern",
+        "period": "Apr 2026 - Jun 2026",
+        "badges": [
+          "Equity Research",
+          "Screening",
+          "Fundamentals",
+          "Quant Factors"
+        ],
+        "overview": "A screening exercise that narrowed a wide universe of Indian companies down to a focused shortlist for deeper research.\n\nIt blended numbers-based factors with qualitative judgement, the quantamental approach.",
+        "highlights": [
+          "Screened 58 Indian companies, shortlisting 20 using fundamental, quantitative & qualitative factors.",
+          "Shortlisted names fed into the valuation models and sector research."
+        ],
+        "links": []
+      },
+      {
+        "slug": "portfolio-analytics-risk",
+        "title": "Portfolio Analytics & Risk",
+        "icon": "fas fa-shield-halved",
+        "summary": "Portfolio analytics, backtesting, VaR, stress testing and tail-risk analysis.",
+        "org": "Paterson Securities Pvt. Ltd.",
+        "role": "Quantamental Equity Research & Financial Analytics Intern",
+        "period": "Apr 2026 - Jun 2026",
+        "badges": [
+          "Backtesting",
+          "VaR",
+          "Stress Testing",
+          "Tail Risk"
+        ],
+        "overview": "Risk-focused work on portfolios: how they would have behaved in the past, and how much they could lose in bad markets.",
+        "highlights": [
+          "Conducted portfolio analytics, backtesting, VaR, stress testing & tail-risk analysis."
+        ],
+        "links": []
+      },
+      {
+        "slug": "acquisition-target-dcf",
+        "title": "Acquisition Target & DCF Model",
+        "icon": "fas fa-handshake",
+        "summary": "Identified an acquisition target with SWOT and strategic analysis, then valued it with a DCF and sensitivity analysis.",
+        "org": "Bank of America (Remote)",
+        "role": "Investment Banker - Intern",
+        "period": "Jul 2023 - Aug 2023",
+        "badges": [
+          "M&A",
+          "SWOT",
+          "DCF",
+          "Sensitivity Analysis"
+        ],
+        "overview": "An investment banking simulation where I picked a target company for an acquisition and tested how its value changes with key assumptions.",
+        "highlights": [
+          "Identified an acquisition target using SWOT and strategic analysis.",
+          "Built a DCF model with multi-variable sensitivity analysis (+/-15% valuation range).",
+          "Performed sensitivity analysis to evaluate the impact of key variables on valuation."
+        ],
+        "links": []
+      }
+    ]
+  },
+  "achievements": {
+    "enable": true,
+    "title": "Certifications",
+    "items": [
+      {
+        "title": "Financial Modeling & Valuation Analyst (FMVA)",
+        "issuer": "",
+        "date": "Jul 2025 - Dec 2025",
+        "icon": "fas fa-chart-line",
+        "points": [
+          "Completed FMVA certification with focus on valuation, financial modeling, and deal analysis.",
+          "Built 3-statement models, DCFs, comps, and sensitivity analyses used in investment banking workflows.",
+          "Strengthened skills in Excel, data analysis, transaction modeling, and investment decision support."
+        ]
+      },
+      {
+        "title": "Bloomberg Market Concepts",
+        "issuer": "Bloomberg",
+        "date": "Jul 2025 - Aug 2025",
+        "icon": "fas fa-chart-column",
+        "points": [
+          "Completed BMC covering equities, fixed income, FX & portfolio basics.",
+          "Learned core Bloomberg functions and market data interpretation."
+        ]
+      },
+      {
+        "title": "FinTech Industry Professional (FTIP)",
+        "issuer": "",
+        "date": "Jul 2025 - Dec 2025",
+        "icon": "fas fa-microchip",
+        "points": [
+          "Trained in digital banking, payments, RegTech, InsurTech, blockchain, and crypto.",
+          "Built foundational skills in Python, machine learning, and fintech application development."
+        ]
+      },
+      {
+        "title": "Business Intelligence & Data Analyst (BIDA)",
+        "issuer": "",
+        "date": "Jul 2025 - Dec 2025",
+        "icon": "fas fa-chart-pie",
+        "points": [
+          "Trained in Excel, Power BI, Tableau, Basic SQL & data visualization with hands-on case studies.",
+          "Gained strong skills in data cleaning, dashboards, regression analysis & business intelligence workflows.",
+          "Built end-to-end analytics projects using Power Query, DAX, LOD calculations & enterprise reporting tools."
+        ]
+      },
+      {
+        "title": "Masters in Applied Finance",
+        "issuer": "Master’s Union School of Business, Gurgaon",
+        "date": "Apr 2023 - Jul 2024",
+        "icon": "fas fa-graduation-cap",
+        "points": [
+          "Accounting, Financial Reporting (Ind AS), P2P/O2C/CapEx & Compliance.",
+          "Financial Analysis, Budgeting, Forecasting, Modelling & Credit Appraisal.",
+          "Advanced Excel, Power BI, MySQL, Banking, Insurance & HBS Case Challenges."
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "enable": true,
+    "title": "Get in Touch",
+    "content": "I am open to internships, full-time roles and conversations about finance, equity research and M&A. My inbox is always open. Whether you have a question or just want to say hi, I will try my best to get back to you!",
+    "email": "shakya2001rashi@gmail.com",
+    "phone": "+91 83195 72853",
+    "location": "Bhopal, Madhya Pradesh, India",
+    "linkedin": "",
+    "btnName": "Mail me",
+    "btnLink": "mailto:shakya2001rashi@gmail.com"
+  },
+  "footer": {
+    "recentPosts": {
+      "path": "blogs",
+      "count": 3,
+      "title": "Recent Posts",
+      "enable": false,
+      "disableFeaturedImage": true
+    },
+    "socialNetworks": {
+      "linkedin": "https://www.linkedin.com/in/rashi-shakya/"
+    }
+  },
+  "listPages": {
+    "disableFeaturedImage": false
+  },
+  "singlePages": {
+    "socialShare": false,
+    "readTime": {
+      "enable": true,
+      "content": "min read"
+    },
+    "scrollprogress": {
+      "enable": true
+    },
+    "tags": {
+      "openInNewTab": true
+    }
+  },
+  "terms": {
+    "read": "Read",
+    "toc": "Table Of Contents",
+    "copyright": "All rights reserved",
+    "emailText": "Check out this site"
+  },
+  "datesFormat": {
+    "article": "Jan 2, 2006",
+    "articleList": "Jan 2, 2006",
+    "articleRecent": "Jan 2, 2006"
+  }
+}
