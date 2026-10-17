@@ -355,38 +355,6 @@
           "Completed BMC covering equities, fixed income, FX, and portfolio basics.",
           "Learned core Bloomberg functions and market data interpretation."
         ]
-      },
-      {
-        "title": "FinTech Industry Professional (FTIP)",
-        "issuer": "",
-        "date": "Jul 2025 - Dec 2025",
-        "icon": "fas fa-microchip",
-        "points": [
-          "Trained in digital banking, payments, RegTech, InsurTech, blockchain, and crypto.",
-          "Built foundational skills in Python, machine learning, and fintech application development."
-        ]
-      },
-      {
-        "title": "Business Intelligence & Data Analyst (BIDA)",
-        "issuer": "",
-        "date": "Jul 2025 - Dec 2025",
-        "icon": "fas fa-chart-pie",
-        "points": [
-          "Trained in Excel, Power BI, Tableau, Basic SQL & data visualization with hands-on case studies.",
-          "Gained strong skills in data cleaning, dashboards, regression analysis & business intelligence workflows.",
-          "Built end-to-end analytics projects using Power Query, DAX, LOD calculations & enterprise reporting tools."
-        ]
-      },
-      {
-        "title": "Masters in Applied Finance",
-        "issuer": "Master’s Union School of Business, Gurgaon",
-        "date": "Apr 2023 - Jul 2024",
-        "icon": "fas fa-graduation-cap",
-        "points": [
-          "Accounting, Financial Reporting (Ind AS), P2P/O2C/CapEx & Compliance.",
-          "Financial Analysis, Budgeting, Forecasting, Modelling & Credit Appraisal.",
-          "Advanced Excel, Power BI, MySQL, Banking, Insurance & HBS Case Challenges."
-        ]
       }
     ]
   },
