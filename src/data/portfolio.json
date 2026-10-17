@@ -307,14 +307,43 @@
     "title": "Certifications",
     "items": [
       {
+        "title": "Capital Markets & Securities Analyst (CMSA®)",
+        "issuer": "CFI",
+        "date": "",
+        "icon": "fas fa-landmark",
+        "points": [
+          "Covered equities, fixed income, derivatives, FX, commodities, valuation, and risk management.",
+          "Gained knowledge of capital markets, securities analysis, and trading operations."
+        ]
+      },
+      {
+        "title": "Financial Planning & Wealth Management Professional (FPWMP®)",
+        "issuer": "CFI",
+        "date": "",
+        "icon": "fas fa-coins",
+        "points": [
+          "Covered wealth management, asset allocation, risk management, and capital markets.",
+          "Gained knowledge of portfolio management, equities, fixed income, and financial planning."
+        ]
+      },
+      {
+        "title": "AI for Finance Specialization",
+        "issuer": "CFI",
+        "date": "",
+        "icon": "fas fa-robot",
+        "points": [
+          "Applied AI tools and techniques to financial analysis, Excel automation, and finance workflows.",
+          "Developed practical skills in AI-driven financial analysis, automation, and data-informed decision-making."
+        ]
+      },
+      {
         "title": "Financial Modeling & Valuation Analyst (FMVA)",
-        "issuer": "",
+        "issuer": "CFI",
         "date": "Jul 2025 - Dec 2025",
         "icon": "fas fa-chart-line",
         "points": [
-          "Completed FMVA certification with focus on valuation, financial modeling, and deal analysis.",
-          "Built 3-statement models, DCFs, comps, and sensitivity analyses used in investment banking workflows.",
-          "Strengthened skills in Excel, data analysis, transaction modeling, and investment decision support."
+          "Covered 3-statement modeling, DCF valuation, forecasting, and scenario analysis.",
+          "Developed Excel-based financial modeling and valuation skills."
         ]
       },
       {
@@ -323,7 +352,7 @@
         "date": "Jul 2025 - Aug 2025",
         "icon": "fas fa-chart-column",
         "points": [
-          "Completed BMC covering equities, fixed income, FX & portfolio basics.",
+          "Completed BMC covering equities, fixed income, FX, and portfolio basics.",
           "Learned core Bloomberg functions and market data interpretation."
         ]
       },
