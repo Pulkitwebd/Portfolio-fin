@@ -245,7 +245,7 @@ function About() {
           )}
           <div className="col-sm-12 col-md-12 col-lg-8 content">
             <div className="about-text" dangerouslySetInnerHTML={md(a.content)} />
-            {a.stats?.length > 0 && (
+            {/* {a.stats?.length > 0 && (
               <div className="about-stats">
                 {a.stats.map((s, i) => (
                   <div className="about-stat" key={i}>
@@ -254,7 +254,7 @@ function About() {
                   </div>
                 ))}
               </div>
-            )}
+            )} */}
             {a.skills?.enable && (
               <>
                 <p className="about-skills-title">{a.skills.title}</p>
